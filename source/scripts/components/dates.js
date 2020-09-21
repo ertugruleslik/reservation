@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 
 import { useFormik } from 'formik';
-import { Button, Modal, Form, Col, Card } from 'react-bootstrap';
+import { Form, Col, Card } from 'react-bootstrap';
 
 // Actions
 import { setDate, nextStep } from "../../../store/reservation/actions";

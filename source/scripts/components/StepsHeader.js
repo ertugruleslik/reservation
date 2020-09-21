@@ -31,7 +31,7 @@ const mapStateToProps = state => ({
     step: state.reservation.step
 });
 
-const mapDispatchToProps = (dispatch) => ({
-});
+const mapDispatchToProps = {
+}
 
 export default connect(mapStateToProps, mapDispatchToProps)(StepsHeader);

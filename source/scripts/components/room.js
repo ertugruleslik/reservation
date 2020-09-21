@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 
 import { useFormik } from 'formik';
@@ -32,8 +32,6 @@ function Room (props) {
             } else {
                 props.onSetRoom(values);
                 props.onNextStep();
-
-                console.log(values)
             }
         },
     });

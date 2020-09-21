@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 
-import { Button, Card, Col } from 'react-bootstrap';
-
 // Actions
 import { prevStep } from "../../../store/reservation/actions";
 
@@ -12,8 +10,6 @@ function Steps(props) {
 
     const step = props.step;
     const allSteps = stepList.map((item,i) => {
-
-        console.log(props)
 
         let stepClass = '';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { Route, Link, Switch, BrowserRouter as Router} from "react-router-dom";
+import { Route, Switch, BrowserRouter as Router} from "react-router-dom";
 
 import { PersistGate } from 'redux-persist/integration/react'
 
@@ -13,7 +13,7 @@ import { store, persistor } from '../../store/store';
 function NoMatch() {
   return (
     <div>
-        Sayfa Bulunamadı.
+        Sayfa Bulunamadı
     </div>
   );
 }
@@ -24,7 +24,7 @@ ReactDOM.render(
       <PersistGate loading={null} persistor={ persistor }>
         <Router basename={''} >
           <Switch>
-            <Route exact path="/" component={App} />
+            <Route exact path="/reservation" component={App} />
             <Route path="*"><NoMatch /></Route>
           </Switch>
         </Router>
