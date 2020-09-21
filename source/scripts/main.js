@@ -24,7 +24,7 @@ ReactDOM.render(
       <PersistGate loading={null} persistor={ persistor }>
         <Router basename={''} >
           <Switch>
-            <Route exact path="/reservation" component={App} />
+            <Route exact path="/" component={App} />
             <Route path="*"><NoMatch /></Route>
           </Switch>
         </Router>
