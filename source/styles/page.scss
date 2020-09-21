@@ -1,0 +1,39 @@
+$primary-color: #28374f;
+
+* {
+    font-family: 'Open Sans', sans-serif, Helvetica;
+    margin: 0;
+	padding: 0;
+    line-height: 1;
+}
+body {
+    color: $primary-color;
+    background: #f4f4f4;
+}
+
+.wrapper {
+	width: 600px;
+	margin: 50px auto;
+}
+
+
+.summary {
+  margin-bottom: 10px;
+
+  &-line {
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin: 0;
+    }
+
+    strong {
+      display: inline-block;
+      min-width: 100px;
+    }
+  }
+}
+
+.form-line {
+  margin-top: 20px;
+}
