@@ -3,9 +3,9 @@
 ## How to run
 
 ```
-npm run start
+npm start
 ```
 
 ## Example
 
-[Online Demo](http://ozayosgb.com/react-detail-page/)
+[Online Demo](http://approvalcycle.com/reservation/)
