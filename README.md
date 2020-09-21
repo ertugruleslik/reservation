@@ -1,4 +1,4 @@
-# React Detail Page
+# React Reservation
 
 ## How to run
 
