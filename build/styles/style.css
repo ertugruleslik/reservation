@@ -60,7 +60,7 @@ body {
   background: #f4f4f4; }
 
 .wrapper {
-  width: 600px;
+  max-width: 600px;
   margin: 50px auto; }
 
 .summary {
